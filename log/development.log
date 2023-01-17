@@ -1143,3 +1143,271 @@ Processing by MicropostsController#index as HTML
 Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.2ms | Allocations: 2274)
 
 
+Started GET "/microposts" for ::1 at 2023-01-18 01:46:51 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MicropostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:6
+  Rendered microposts/_micropost.html.erb (Duration: 0.3ms | Allocations: 253)
+  Rendered microposts/_micropost.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered microposts/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 6469)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 27480)
+Completed 200 OK in 25ms (Views: 18.7ms | ActiveRecord: 0.8ms | Allocations: 32750)
+
+
+Started GET "/microposts" for ::1 at 2023-01-18 01:46:58 +0700
+Processing by MicropostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:6
+  Rendered microposts/_micropost.html.erb (Duration: 0.1ms | Allocations: 25)
+  Rendered microposts/_micropost.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered microposts/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1184)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2300)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.2ms | Allocations: 2634)
+
+
+Started GET "/users/new" for ::1 at 2023-01-18 01:47:00 +0700
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 3677)
+
+
+  
+NameError (uninitialized constant Micropost::FILL_IN
+
+    validates FILL_IN, presence: true # Replace FILL_IN with ther ight code.
+              ^^^^^^^):
+  
+app/models/user.rb:3:in `<class:Micropost>'
+app/models/user.rb:1:in `<main>'
+app/controllers/users_controller.rb:15:in `new'
+Started GET "/users/new" for ::1 at 2023-01-18 01:47:07 +0700
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3164)
+
+
+  
+NameError (uninitialized constant Micropost::FILL_IN
+
+    validates FILL_IN, presence: true # Replace FILL_IN with ther ight code.
+              ^^^^^^^):
+  
+app/models/user.rb:3:in `<class:Micropost>'
+app/models/user.rb:1:in `<main>'
+app/controllers/users_controller.rb:15:in `new'
+Started GET "/users" for ::1 at 2023-01-18 01:47:08 +0700
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 3081)
+
+
+  
+NameError (uninitialized constant Micropost::FILL_IN
+
+    validates FILL_IN, presence: true # Replace FILL_IN with ther ight code.
+              ^^^^^^^):
+  
+app/models/user.rb:3:in `<class:Micropost>'
+app/models/user.rb:1:in `<main>'
+app/controllers/users_controller.rb:6:in `index'
+Started GET "/users" for ::1 at 2023-01-18 01:47:13 +0700
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 3080)
+
+
+  
+NameError (uninitialized constant Micropost::FILL_IN
+
+    validates FILL_IN, presence: true # Replace FILL_IN with ther ight code.
+              ^^^^^^^):
+  
+app/models/user.rb:3:in `<class:Micropost>'
+app/models/user.rb:1:in `<main>'
+app/controllers/users_controller.rb:6:in `index'
+Started GET "/users" for ::1 at 2023-01-18 01:47:38 +0700
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 4670)
+
+
+  
+NameError (uninitialized constant Micropost::FILL_IN
+
+    validates FILL_IN, presence: true # Replace FILL_IN with ther ight code.
+              ^^^^^^^):
+  
+app/models/user.rb:3:in `<class:Micropost>'
+app/models/user.rb:1:in `<main>'
+app/controllers/users_controller.rb:6:in `index'
+Started GET "/microposts" for ::1 at 2023-01-18 01:47:40 +0700
+Processing by MicropostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:6
+  Rendered microposts/_micropost.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered microposts/_micropost.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered microposts/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1101)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 2217)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.2ms | Allocations: 2514)
+
+
+Started GET "/microposts/1" for ::1 at 2023-01-18 01:47:44 +0700
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.3ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:63:in `set_micropost'
+  Rendering layout layouts/application.html.erb
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/_micropost.html.erb (Duration: 0.1ms | Allocations: 25)
+  Rendered microposts/show.html.erb within layouts/application (Duration: 2.5ms | Allocations: 937)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2035)
+Completed 200 OK in 11ms (Views: 5.4ms | ActiveRecord: 0.3ms | Allocations: 4804)
+
+
+Started GET "/microposts/1/edit" for ::1 at 2023-01-18 01:47:46 +0700
+Processing by MicropostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:63:in `set_micropost'
+  Rendering layout layouts/application.html.erb
+  Rendering microposts/edit.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (Duration: 12.6ms | Allocations: 3266)
+  Rendered microposts/edit.html.erb within layouts/application (Duration: 14.3ms | Allocations: 3628)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 4730)
+Completed 200 OK in 20ms (Views: 17.3ms | ActiveRecord: 0.2ms | Allocations: 5538)
+
+
+Started GET "/microposts" for ::1 at 2023-01-18 01:47:48 +0700
+Processing by MicropostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:6
+  Rendered microposts/_micropost.html.erb (Duration: 0.1ms | Allocations: 24)
+  Rendered microposts/_micropost.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered microposts/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1064)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2065)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.2ms | Allocations: 2366)
+
+
+Started GET "/microposts/5" for ::1 at 2023-01-18 01:47:49 +0700
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:63:in `set_micropost'
+  Rendering layout layouts/application.html.erb
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/_micropost.html.erb (Duration: 0.1ms | Allocations: 19)
+  Rendered microposts/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 556)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 1547)
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.2ms | Allocations: 2301)
+
+
+Started DELETE "/microposts/5" for ::1 at 2023-01-18 01:47:51 +0700
+Processing by MicropostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"5"}
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:63:in `set_micropost'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/microposts_controller.rb:52:in `destroy'
+  [1m[36mMicropost Destroy (1.4ms)[0m  [1m[31mDELETE FROM "microposts" WHERE "microposts"."id" = ?[0m  [["id", 5]]
+  ↳ app/controllers/microposts_controller.rb:52:in `destroy'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/microposts_controller.rb:52:in `destroy'
+Redirected to http://localhost:3000/microposts
+Completed 302 Found in 11ms (ActiveRecord: 3.3ms | Allocations: 2907)
+
+
+Started GET "/microposts" for ::1 at 2023-01-18 01:47:51 +0700
+Processing by MicropostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.1ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:6
+  Rendered microposts/_micropost.html.erb (Duration: 0.1ms | Allocations: 24)
+  Rendered microposts/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 973)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 2086)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.1ms | Allocations: 2386)
+
+
+Started GET "/microposts" for ::1 at 2023-01-18 01:47:57 +0700
+Processing by MicropostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.1ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:6
+  Rendered microposts/_micropost.html.erb (Duration: 0.1ms | Allocations: 19)
+  Rendered microposts/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 891)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 1890)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.1ms | Allocations: 2149)
+
+
+Started GET "/microposts" for ::1 at 2023-01-18 01:48:09 +0700
+Processing by MicropostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:6
+  Rendered microposts/_micropost.html.erb (Duration: 0.3ms | Allocations: 19)
+  Rendered microposts/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 867)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 1866)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.2ms | Allocations: 2125)
+
+
+Started GET "/microposts" for ::1 at 2023-01-18 01:48:15 +0700
+Processing by MicropostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:6
+  Rendered microposts/_micropost.html.erb (Duration: 0.1ms | Allocations: 19)
+  Rendered microposts/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 876)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 1875)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.2ms | Allocations: 2134)
+
+
+Started GET "/users" for ::1 at 2023-01-18 01:48:17 +0700
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 4733)
+
+
+  
+NameError (uninitialized constant Micropost::FILL_IN
+
+    validates FILL_IN, presence: true # Replace FILL_IN with ther ight code.
+              ^^^^^^^):
+  
+app/models/user.rb:3:in `<class:Micropost>'
+app/models/user.rb:1:in `<main>'
+app/controllers/users_controller.rb:6:in `index'
+Started GET "/users" for ::1 at 2023-01-18 01:50:41 +0700
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 2305)
+
+
+  
+NameError (uninitialized constant User::FILL_IN
+
+    validates FILL_IN, presence: true # Replace FILL_IN with ther ight code.
+              ^^^^^^^):
+  
+app/models/user.rb:3:in `<class:User>'
+app/models/user.rb:1:in `<main>'
+app/controllers/users_controller.rb:6:in `index'
+Started GET "/users" for ::1 at 2023-01-18 01:50:54 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 4263)
+
+
+  
+NameError (uninitialized constant User::FILL_IN
+
+    validates FILL_IN, presence: true # Replace FILL_IN with ther ight code.
+              ^^^^^^^):
+  
+app/models/user.rb:3:in `<class:User>'
+app/models/user.rb:1:in `<main>'
+app/controllers/users_controller.rb:6:in `index'
